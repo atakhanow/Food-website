@@ -57,11 +57,11 @@
               <i class="fa-solid fa-magnifying-glass header__icon"></i>
             </div>
 
-            <a href="#" class="header__btn">
+            <a href="/cart.html" class="header__btn">
               <i class="fa-solid fa-cart-shopping header__icon"></i>
             </a>
 
-            <a href="#" class="header__btn">
+            <a href="/login.html" class="header__btn">
               <i class="fa-solid fa-user header__icon"></i>
             </a>
           </div>
@@ -97,7 +97,7 @@
       </div>
     </section>
     <!-- main ends -->
-
+    <!-- Category starts -->
     <section class="category" id="category">
       <div class="container">
         <div class="category__boxes">
@@ -133,7 +133,7 @@
         </div>
       </div>
     </section>
-
+    <!-- Category ends -->
     <!-- about starts -->
     <section class="about" id="about">
       <div class="container">
@@ -422,43 +422,54 @@
     <!-- popular ends -->
 
     <!-- banners starts -->
-    <section class="banners" id="banners">
+      <section class="banner">
       <div class="container">
-        <div class="banners__wrapper">
-          <div class="banner__row">
-            <span class="banners__span ">Double Cheese</span>
-
-            <h3 class="banners__title">BURGER</h3>
-
-            <p class="banners__description">With CocaCola And Fries</p>
-
-            <button class="banner__button button">Order Now</button>
+        <div class="banner__wrapper">
+          <div class="banner__top">
+            <div class="banner__top--content">
+              <h3 class="banner__top--subtitle section__subtitle">
+                double cheese
+              </h3>
+              <h2 class="banner__top--title">Burger</h2>
+              <p class="banner__top--description">with cocacola and fries</p>
+              <button class="banner__card--btn button">
+                Order now
+              </button>
+            </div>
+          </div>
+          <div class="banner__bottom">
+            <div class="banner__card">
+              <img src="./images/banner-1.png" alt="banner-1 image" />
+              <div class="banner__card--content">
+                <h3 class="banner__card--subtitle">special offer</h3>
+                <h2 class="banner__card--title">upto 50% off</h2>
+                <button class="banner__card--btn button">
+                  Order now
+                </button>
+              </div>
+            </div>
+            <div class="banner__card">
+              <img src="./images/banner-2.png" alt="banner-2 image" />
+              <div class="banner__card--content2">
+                <h3 class="banner__card--subtitle2">special offer</h3>
+                <h2 class="banner__card--title2">upto 50% off</h2>
+                <button class="banner__card--btn button">
+                  Order now
+                </button>
+              </div>
+            </div>
+            <div class="banner__card">
+              <img src="./images/banner-3.png" alt="banner-3 image" />
+              <div class="banner__card--content">
+                <h3 class="banner__card--subtitle">special offer</h3>
+                <h2 class="banner__card--title">upto 50% off</h2>
+                <button class="banner__card--btn button">
+                  Order now
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="banners__bottom">
-        <div class="banner__left banner">
-          <span class="banner__span">Special Offer</span>
-
-          <h3 class="banner__title">Upto 50% Off</h3>
-
-          <button class="button banner__button">Order Now</button>
-        </div>
-
-        <div class="banner__center banner">
-          <span class="center__span">Special Offer</span>
-
-          <h3 class="center__title">Upto 25% Extra</h3>
-
-          <button class="button banner__button">Order Now</button>
-        </div>
-
-        <div class="banner__right banner">
-          <span class="banner__span">Special Offer</span>
-
-          <h3 class="banner__title">100% Cashback</h3>
-
-          <button class="button banner__button">Order Now</button>
-        </div>
-      </div>
       </div>
     </section>
     <!-- banners ends -->
@@ -533,7 +544,7 @@
     <!-- Menu section ends -->
 
     <!-- ordeer starts -->
- <section class="order" id="order">
+    <section class="order" id="order">
       <div class="container">
         <div class="order__wrapper">
           <div class="order__top">
@@ -608,7 +619,7 @@
     <!-- order ends -->
 
     <!-- blog starts -->
-<section class="blog" id="blog">
+    <section class="blog" id="blog">
   <div class="container">
     <div class="blog__wrapper">
       <div class="blog__top">
@@ -618,8 +629,17 @@
 
       <div class="blog__cards">
         <div class="blog__card">
+
+          <div class="blog__card-img">
+          <div class="blog__date">
+            <p>
+            <i class="fa-solid fa-calendar  " style="color: #27ae60
+            ;"></i>10th April, 2025
+            </p>
+          </div>
+
           <img src="/images/blog-1.jpg" alt="blog-1">
-
+</div>
           <div class="blog__card-bottom">
              <div class="tags">
             <a href="#"><i class="fa-solid fa-tag" style="color: #27ae60;"></i> Food / </a>
@@ -635,8 +655,16 @@
         </div>
 
         <div class="blog__card">
+           <div class="blog__card-img">
+          <div class="blog__date">
+            <p>
+            <i class="fa-solid fa-calendar  " style="color: #27ae60
+            ;"></i>10th April, 2025
+            </p>
+          </div>
+
           <img src="/images/blog-2.jpg" alt="blog-1">
-
+</div>
           <div class="blog__card-bottom">
              <div class="tags">
             <a href="#"><i class="fa-solid fa-tag" style="color: #27ae60;"></i> Food / </a>
@@ -652,7 +680,16 @@
         </div>
 
         <div class="blog__card">
+          <div class="blog__card-img">
+          <div class="blog__date">
+            <p>
+            <i class="fa-solid fa-calendar  " style="color: #27ae60
+            ;"></i>10th April, 2025
+            </p>
+          </div>
+
           <img src="/images/blog-3.jpg" alt="blog-1">
+</div>
 
           <div class="blog__card-bottom">
              <div class="tags">
@@ -672,12 +709,12 @@
       </div>
     </div>
   </div>
-</section>
+    </section>
     <!-- blog ends -->
 
     <!-- Footer starts -->
     <footer class="footer" id="footer">
-  <div class="container">
+   <div class="container">
     <div class="footer__wrapper">
       <div class="footer__top">
         
