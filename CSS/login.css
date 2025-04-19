@@ -38,40 +38,88 @@
 
 /* header ends */
 
-/* main starts */
-.form {
-  width: 25rem;
-  box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
-}
-
-.form input {
-  width: 95%;
-  padding: 0.625rem 1.25rem;
-  margin: 7px;
-  border: 1px solid var(--brand-gray);
-  background-color: #f7f7f7;
-  border-radius: 0.25rem;
-}
-
-.form__title {
-  text-align: center;
-  font-size: 1.5rem;
-  padding: 0px 0px 10px;
-}
-
-.remember {
+.form__wrapper {
   display: flex;
-  width: 1rem;
+  justify-content: center;
   align-items: center;
 }
 
-.remember label {
-  font-size: 0.7rem;
+.login__container {
+  width: 100%;
+  max-width: 450px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.form__button {
-  width: 95%;
-  padding: 0.45rem 1.125rem;
-  margin: 20px 0px;
+.login__title {
+  text-align: center;
+  color: #0a0a3c;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
-/* main ends */
+
+.form__group {
+  margin-bottom: 20px;
+}
+
+.form__control {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #666;
+  outline: none;
+}
+
+.form__control::placeholder {
+  color: #888;
+}
+
+.checkbox__container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.checkbox__container input {
+  margin-right: 10px;
+}
+
+.checkbox__container label {
+  color: var(--brand-gray);
+}
+
+.login__btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.login__links {
+  margin-top: 15px;
+  color: #666;
+}
+
+.login__links p {
+  margin-bottom: 10px;
+}
+
+.login__links a {
+  color: #27ae60;
+  text-decoration: none;
+}
+
+.login__links a:hover {
+  text-decoration: underline;
+}
